@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fit.ba.vjezbanjeib130011.fragments.CurrentOrderFragment"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewOrderItems"
+        android:background="@drawable/txt_shape"
+        android:divider="@color/Black"
+        android:dividerHeight="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnConfirmOrder"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConfirmOrder"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@color/Black"
+        android:background="@drawable/btn_shape_selector"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

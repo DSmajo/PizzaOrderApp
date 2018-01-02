@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PizzaOrderApp</string>
+    <string name="lbl_login">Login</string>
+    <string name="hint_username">Username:</string>
+    <string name="hint_password">Password:</string>
+    <string name="btnSignIn">Sign in</string>
+    <string name="btnRegister">Register</string>
+    <string name="tvTitle">Welcome to PizzaOrderApp</string>
+    <string name="tvRegistration">Registration</string>
+    <string name="hint_firstname">First name:</string>
+    <string name="hint_lastname">Last name:</string>
+    <string name="hint_address">Address:</string>
+    <string name="hint_phone">Phone: 061–222–222</string>
+    <string name="hint_birthdate">Birth date: 11.01.1900</string>
+    <string name="hint_quantityValue">Quantity</string>
+    <string name="tvProductsTitle">Pizza menu:</string>
+    <string name="tvItemProductName">ProductName</string>
+    <string name="tvItemProductPrice">ProductPrice</string>
+    <string name="tvItemProductDescription">ProductDescription</string>
+    <string name="ivItemPhoto">Pizza photo</string>
+    <string name="tvName">Name</string>
+    <string name="tvPrice">Price</string>
+    <string name="btnAddToCart">Add To Cart</string>
+    <string name="btnGoToCart">Go To Cart</string>
+    <string name="tvOrderDate">Order date:</string>
+    <string name="tvTotalPrice">Total price:</string>
+    <string name="tvPizza">Pizza:</string>
+    <string name="tvType">Type:</string>
+    <string name="tvPizzaPrice">Price:</string>
+    <string name="tvQuantity">Quantity:</string>
+    <string name="tvQuantityValue">2</string>
+    <string name="tvPriceValue">11 KM</string>
+    <string name="tvPizzaValue">Margherita</string>
+    <string name="tvTypeValue">Large</string>
+    <string name="btnConfirmOrder">Confirm</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClosed">Closed</string>
+    <string name="btnRemoveItem">Remove item</string>
+    <string name="btnClose">Close</string>
+    <string name="tvChangeQuantity">Change quantity:</string>
+    <string name="tvMyProfile">My profile</string>
+    <string name="btnUpdateProfile">Update</string>
+    <string name="tvMainMenu">Main menu</string>
+    <string name="btnExit">Exit</string>
+
+    <string-array name="arrayProductType">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Jumbo</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

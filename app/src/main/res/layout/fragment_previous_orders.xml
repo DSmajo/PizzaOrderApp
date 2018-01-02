@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fit.ba.vjezbanjeib130011.fragments.PreviousOrdersFragment"
+    >
+
+
+    <ExpandableListView
+        android:id="@+id/previousOrdersExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/txt_shape"
+        android:divider="@color/Black"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false" />
+
+
+</RelativeLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinear"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:baselineAligned="false"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCol1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@color/Coral"/>
+
+        <TextView
+            android:id="@+id/tvPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPizza"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:paddingStart="25dp"/>
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvType"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:paddingStart="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCol2"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Coral"/>
+
+        <TextView
+            android:id="@+id/tvPizzaValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPizzaValue"
+            android:textColor="@color/Black"
+            android:padding="5dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/tvTypeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTypeValue"
+            android:textColor="@color/Black"
+            android:padding="5dp"
+            android:paddingStart="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCol3"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Coral"/>
+
+        <TextView
+            android:id="@+id/tvPizzaPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPizzaPrice"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:id="@+id/tvPizzaQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQuantity"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:paddingStart="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCol4"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/Coral"/>
+
+        <TextView
+            android:id="@+id/tvPizzaPriceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPriceValue"
+            android:textColor="@color/Black"
+            android:padding="5dp"
+            android:paddingEnd="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPizzaQuantityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvQuantityValue"
+            android:textColor="@color/Black"
+            android:padding="5dp"
+            android:paddingEnd="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/Black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
